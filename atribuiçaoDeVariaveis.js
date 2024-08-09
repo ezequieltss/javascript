@@ -2,9 +2,14 @@
 console.log("trabalhando atribuiçao de variáveis");
 
  const idade =17
- const nome = "ezequiel";
+ const primeironome = "ezequiel";
  const sobrenome="ferreira";
 
-  console.log( nome + " " + sobrenome );
-  console.log(nome,sobrenome);
-  console.log()
+const nomecompeto = primeironome + sobrenome;
+
+
+
+  console.log( primeironome + " " + sobrenome );
+  console.log(primeironome,sobrenome);
+  console.log(`meu nome é ${primeironome}${sobrenome}`)
+  console.log(`meu nome é ${nomecompeto}`)
